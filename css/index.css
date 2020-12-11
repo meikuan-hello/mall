@@ -186,11 +186,33 @@
 /* 热销
 ---------------------------------------------------------------- */
 .hot{
-    
+    margin-bottom: 40px;
 }
-.hot .container{
+.hot .hot-card{
     height: 300px;
-    background-color: skyblue;
+    float: left;
+    background-image:linear-gradient( #007aff, #52c41a)
+}
+.hot .hot-card {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+}
+.hot .hot-card h3{
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+.hot .hot-card .iconfont{
+    font-size: 35px;
+    color: #fff;
+}
+.hot .card-itme{
+    height: 300px;
+    float: left;
+    /* background-color: #52c41a; */
+}
+.hot .card-itme .product-cart:nth-child(4){
+    margin-right: 0;
 }
 
 /* 楼层
@@ -200,7 +222,14 @@
 }
 .floor .container{
     height: 720px;
-    background-color: slateblue;
+    background-color: slateblue; 
+}
+.floor .container .floor-box{
+    border-bottom:1px solid   #52c41a ;
+}
+.floor .container .floor-name{
+    font-size: 16px;
+    color: #52c41a;
 }
 
 /* 底部
