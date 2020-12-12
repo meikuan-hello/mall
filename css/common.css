@@ -67,7 +67,9 @@ a:hover{
  .card-itme .product-cart:hover{
     box-shadow: 3px 3px 3px  rgba(0,0,0,0.3);
  }
- 
+ .card-itme .product-cart:nth-child(5n){
+     margin-right: 0;
+ }
 
 
 
