@@ -197,6 +197,7 @@
     font-size: 40px;
     color: #fff;
     text-align: center;
+    cursor: pointer;
 }
 .hot .hot-card h3{
     margin-top: 100px;
